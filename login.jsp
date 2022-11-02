@@ -18,7 +18,7 @@
   <div  class='whysignLogin'>
  <%
   String msg=request.getParameter("msg");
-  if("notexist".equals(msg)){ 
+  if( "notexist".equals(msg)){ 
   %>
   <h3>Incorrect Username or Password please signup </h3>
 <%}%>
