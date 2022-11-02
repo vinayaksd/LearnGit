@@ -15,7 +15,7 @@
       <h2><a href="signup.jsp">SignUp</a></h2>
        <h2><a href="forgotPassword.jsp">Forgot Password?</a></h2>
   </div>
-  <div class='whysignLogin'>
+  <div  class='whysignLogin'>
  <%
   String msg=request.getParameter("msg");
   if("notexist".equals(msg)){ 
